@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LUMIÈRE Clínica de Estética | Cuidado em cada detalhe</title>
+  <meta name="description" content="LUMIÈRE Clínica de Estética: atendimento personalizado, ambiente acolhedor e avaliação individual. Conheça nossos tratamentos.">
+  <meta name="theme-color" content="#F8F6F1">
+  <meta property="og:title" content="LUMIÈRE Clínica de Estética">
+  <meta property="og:description" content="Sua beleza merece cuidado em cada detalhe.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="header" id="header">
+    <div class="container header__in">
+      <a href="#inicio" class="logo" aria-label="LUMIÈRE, ir ao início">LUMIÈRE</a>
+      <nav class="nav" id="nav" aria-label="Principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#tratamentos">Tratamentos</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn--dark nav__cta">Agendar avaliação</a>
+      </nav>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="hero__media">
+        <img data-img="hero" src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1800&q=70" alt="Ambiente claro e sofisticado de uma clínica de estética" fetchpriority="high">
+      </div>
+      <div class="container hero__txt">
+        <h1>Sua beleza merece cuidado em cada detalhe.</h1>
+        <p>A LUMIÈRE é uma clínica de estética feminina pensada para acolher, ouvir e orientar com calma, do primeiro contato ao atendimento.</p>
+        <div class="actions">
+          <a href="#tratamentos" class="btn btn--gold">Conheça nossos tratamentos</a>
+          <a href="#contato" class="btn btn--ghost">Fale conosco</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container split">
+        <div class="split__txt reveal">
+          <h2>Um espaço feito para você desacelerar.</h2>
+          <p>Na LUMIÈRE, cada atendimento começa pela escuta. Entendemos o que você procura antes de sugerir qualquer cuidado, sempre com respeito ao seu tempo e às suas escolhas.</p>
+          <p>Nosso ambiente foi pensado para ser silencioso, acolhedor e discreto. Aqui, atendimento personalizado significa dedicar atenção real a cada cliente.</p>
+          <a href="#experiencia" class="link">Veja como funciona o atendimento</a>
+        </div>
+        <figure class="split__img reveal">
+          <img data-img="sobre" src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=1000&q=70" alt="Detalhe de uma sala de atendimento com toalhas e luz suave" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section--bege" id="tratamentos">
+      <div class="container">
+        <div class="head reveal">
+          <h2>Tratamentos</h2>
+          <p>Conheça os cuidados oferecidos. A indicação ideal é definida na avaliação individual.</p>
+        </div>
+        <div class="grid">
+          <article class="card reveal">
+            <div class="card__img"><img data-img="t1" src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=70" alt="Cuidado facial com máscara" loading="lazy"></div>
+            <div class="card__body">
+              <h3>Limpeza de pele</h3>
+              <p>Cuidado facial para a rotina de skincare, adaptado ao seu tipo de pele.</p>
+              <a href="#contato" class="link" data-treat="Limpeza de pele">Saiba mais</a>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="card__img"><img data-img="t2" src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=800&q=70" alt="Produtos de cuidado facial sobre superfície clara" loading="lazy"></div>
+            <div class="card__body">
+              <h3>Tratamentos faciais</h3>
+              <p>Protocolos pensados após a avaliação, com orientação clara em cada etapa.</p>
+              <a href="#contato" class="link" data-treat="Tratamentos faciais">Saiba mais</a>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="card__img"><img data-img="t3" src="https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=800&q=70" alt="Produtos para cuidados corporais" loading="lazy"></div>
+            <div class="card__body">
+              <h3>Cuidados corporais</h3>
+              <p>Atenção ao corpo com técnicas e produtos escolhidos junto com você.</p>
+              <a href="#contato" class="link" data-treat="Cuidados corporais">Saiba mais</a>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="card__img"><img data-img="t4" src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=70" alt="Sala de massagem com ambiente tranquilo" loading="lazy"></div>
+            <div class="card__body">
+              <h3>Massagem relaxante</h3>
+              <p>Um momento de pausa, em ambiente calmo e reservado.</p>
+              <a href="#contato" class="link" data-treat="Massagem relaxante">Saiba mais</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="diferenciais">
+      <div class="container">
+        <div class="head reveal"><h2>O que torna a LUMIÈRE diferente.</h2></div>
+        <ul class="diffs">
+          <li class="reveal"><h3>Atendimento personalizado</h3><p>Cada cliente é única, e o atendimento acompanha isso.</p></li>
+          <li class="reveal"><h3>Ambiente acolhedor</h3><p>Espaço tranquilo, pensado para você se sentir à vontade.</p></li>
+          <li class="reveal"><h3>Avaliação individual</h3><p>Conversamos antes de indicar qualquer tratamento.</p></li>
+          <li class="reveal"><h3>Atenção aos detalhes</h3><p>Da recepção ao fim do atendimento, nada passa despercebido.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--bege" id="experiencia">
+      <div class="container">
+        <div class="head reveal"><h2>Como funciona a sua jornada.</h2></div>
+        <ol class="steps">
+          <li class="reveal"><span class="steps__n">1</span><h3>Primeiro contato</h3><p>Você fala com a equipe e tira suas dúvidas.</p></li>
+          <li class="reveal"><span class="steps__n">2</span><h3>Avaliação individual</h3><p>Conversamos sobre o que você busca e suas necessidades.</p></li>
+          <li class="reveal"><span class="steps__n">3</span><h3>Orientação sobre os tratamentos</h3><p>Explicamos as opções para você decidir com tranquilidade.</p></li>
+          <li class="reveal"><span class="steps__n">4</span><h3>Agendamento</h3><p>Escolhemos juntas o melhor dia e horário.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container container--narrow">
+        <div class="head reveal"><h2>Perguntas frequentes</h2></div>
+        <div class="faq reveal">
+          <div class="faq__item">
+            <h3><button class="faq__q" aria-expanded="false" aria-controls="a1" id="q1">Como agendar?</button></h3>
+            <div class="faq__a" id="a1" role="region" aria-labelledby="q1"><div><p>Clique em “Agendar pelo WhatsApp” ou em “Agendar avaliação” e fale com a nossa equipe para combinar o melhor horário.</p></div></div>
+          </div>
+          <div class="faq__item">
+            <h3><button class="faq__q" aria-expanded="false" aria-controls="a2" id="q2">É necessário realizar avaliação?</button></h3>
+            <div class="faq__a" id="a2" role="region" aria-labelledby="q2"><div><p>Sim. A avaliação individual é o primeiro passo para entender o que você procura e indicar o cuidado mais adequado.</p></div></div>
+          </div>
+          <div class="faq__item">
+            <h3><button class="faq__q" aria-expanded="false" aria-controls="a3" id="q3">Como conhecer os tratamentos?</button></h3>
+            <div class="faq__a" id="a3" role="region" aria-labelledby="q3"><div><p>Veja a seção Tratamentos neste site e converse com a equipe, que explica cada opção durante a avaliação.</p></div></div>
+          </div>
+          <div class="faq__item">
+            <h3><button class="faq__q" aria-expanded="false" aria-controls="a4" id="q4">Como entrar em contato?</button></h3>
+            <div class="faq__a" id="a4" role="region" aria-labelledby="q4"><div><p>Pelo WhatsApp, pelo telefone ou pelo Instagram, todos listados no rodapé desta página.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contato">
+      <div class="container reveal">
+        <h2>Seu momento de cuidado começa aqui.</h2>
+        <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." class="btn btn--gold" id="wa" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+        <p class="note">Link do WhatsApp é um placeholder: substitua o número em todos os botões.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__in">
+      <div>
+        <a href="#inicio" class="logo">LUMIÈRE</a>
+        <p>Clínica de Estética</p>
+      </div>
+      <nav aria-label="Rodapé">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#tratamentos">Tratamentos</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+        </ul>
+      </nav>
+      <address>
+        <p>Telefone: (00) 00000-0000 <em>[placeholder]</em></p>
+        <p>Endereço: Rua Exemplo, 000, Cidade <em>[placeholder]</em></p>
+        <p>Instagram: <a href="#contato" data-placeholder>@lumiere.exemplo</a> <em>[placeholder]</em></p>
+      </address>
+    </div>
+    <div class="container footer__copy">
+      <p>© <span id="year">2026</span> LUMIÈRE Clínica de Estética. Todos os direitos reservados. Site fictício para fins de demonstração.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
